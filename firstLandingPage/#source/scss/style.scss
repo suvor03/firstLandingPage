@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header{
+  background-color: #EFEFEF;
+  position: absolute;
+  height: 50px;
+  width: 1920px;
+}
+
+.top-line-menu{
+  margin: 17px 650px;
+}
+
+.list__item{  
+  color: #333333;
+  display: inline;
+  width: 100px;
+  margin-left: 50px;
+  line-height: 16px;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;  
+}
+
+.second-line{
+  position: absolute;
+  width: 1920px;
+  height: 159px;
+  margin-top: 70px;
+  background-color: #FFFFFF;
+}
+
+.introdaction{
+  position: absolute;
+  border-bottom: 1px solid #EFEFEF;
+  width: 1920px;
+  height: 95px;
+  left: 0px;
+
+  .logo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 405px;
+  }
+
+  .name__company{
+    position: absolute;
+    color: #66C05D;
+    width: 158px;
+    height: 39px;
+    left: 505px;
+    top:20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+  }
+
+  .phone__number{
+    position: absolute;
+    color: #000000;
+    width: 127px;
+    height: 19px;
+    left: 1178px;
+    top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .btn__get__call{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+    text-align: center;
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    left: 1345px;
+    padding: 10px;
+    top: 25px;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+  }  
+}
+
+.main-menu{
+  width: 900px;
+  margin-left: 560px;
+  margin-top: 120px;
+
+  .menu__item{
+    display: inline;
+    color: #000000;
+    margin-left: 50px;
+    line-height: 19px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;  
+  }
+}
+
+.sale {
+  position: absolute;
+  height: 700px;
+  width: 1920px;
+  margin-top: 230px;  
+
+  .name__armchair{
+    position: absolute;
+    color: #FFFFFF;
+    width: 308px;
+    height: 44px;
+    left: 405px;
+    top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;  
+  }
+
+  .property{
+    position: absolute;
+    width: 308px;
+    height: 35px;
+    left: 405px;
+    top: 250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .btn__details{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    text-align: center;
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    left: 405px;
+    top: 370px;
+    padding: 10px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+  }
+}
+
+.goods{
+  background-color: #EFEFEF;
+  position: absolute;
+  height: 900px;
+  width: 1920px;
+  margin-top: 834px;
+
+  .promotion{
+    position: absolute;
+    width: 320px;
+    height: 29px;
+    left: 405px;
+    top: 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  } 
+
+  .main-goods{
+    width: 1110px;
+    height: 600px;
+    margin-left: 405px;
+    margin-top: 130px;
+    
+
+    .item__1 {
+      position: absolute;
+      width: 255px;
+      height: 363px;
+      background: #FFFFFF;
+      text-align: center;
+      padding-top: 25px;
+
+      p{
+        position: absolute;
+        width: 195px;
+        height: 33px;
+        left: 30px;
+        padding-top: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+      }
+
+      .cost{
+        position: absolute;
+        width: 80px;
+        height: 19px;
+        left: 90px;
+        padding-top: 70px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        font-weight: 700;
+      }
+
+      .btn__buy{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+
+        width: 130px;
+        padding-top: 10px;
+        height: 35px;
+        left: 60px;
+        top: 300px;
+        background: #66C05D;
+        border-radius: 30px;
+      }
+    }
+
+    .item__2 {
+      margin-left: 280px;
+      position: absolute;
+      width: 255px;
+      height: 363px;
+      background: #FFFFFF;
+      text-align: center;
+      padding-top: 25px;
+
+      p{
+        position: absolute;
+        width: 195px;
+        height: 33px;
+        left: 30px;
+        padding-top: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+      }
+
+      .cost{
+        position: absolute;
+        width: 80px;
+        height: 19px;
+        left: 90px;
+        padding-top: 70px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        font-weight: 700;
+      }
+
+      .btn__buy{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+
+        width: 130px;
+        padding-top: 10px;
+        height: 35px;
+        left: 60px;
+        top: 300px;
+        background: #66C05D;
+        border-radius: 30px;
+      }
+    }
+
+    .item__3 {
+      position: absolute;
+      margin-left: 560px;
+      width: 255px;
+      height: 363px;
+      background: #FFFFFF;
+      text-align: center;
+      padding-top: 25px;
+
+      p{
+        position: absolute;
+        width: 195px;
+        height: 33px;
+        left: 30px;
+        padding-top: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+      }
+
+      .cost{
+        position: absolute;
+        width: 80px;
+        height: 19px;
+        left: 90px;
+        padding-top: 70px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        font-weight: 700;
+      }
+
+      .btn__buy{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+
+        width: 130px;
+        padding-top: 10px;
+        height: 35px;
+        left: 60px;
+        top: 300px;
+        background: #66C05D;
+        border-radius: 30px;
+      }
+    }
+
+    .item__4 {
+      position: absolute;
+      margin-left: 840px;
+      width: 255px;
+      height: 363px;
+      background: #FFFFFF;
+      text-align: center;
+      padding-top: 25px;
+
+      p{
+        position: absolute;
+        width: 195px;
+        height: 33px;
+        left: 30px;
+        padding-top: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+      }
+
+      .cost{
+        position: absolute;
+        width: 80px;
+        height: 19px;
+        left: 90px;
+        padding-top: 70px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+        font-weight: 700;
+      }
+
+      .btn__buy{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+
+        width: 130px;
+        padding-top: 10px;
+        height: 35px;
+        left: 60px;
+        top: 300px;
+        background: #66C05D;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  .gifts{
+    #f{
+      position: absolute;
+      width: 540px;
+      height: 212px;
+      left: 405px;
+      top: 600px;
+      background: #66C05D;
+    }
+
+    #l{
+      position: absolute;
+      height: 105px;
+      width: 140px;
+      border-radius: 20px;
+      left: 750px;
+      top: 650px;
+    }
+
+    #bonus{
+      position: absolute;
+      width: 250px;
+      height: 17px;
+      left: 445px;
+      top: 635px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #FFFFFF;
+    }
+
+    #money{
+      position: absolute;
+      width: 231px;
+      height: 40px;
+      left: 445px;
+      top: 680px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #FFFFFF;
+    }
+
+    .btn__email{
+      position: absolute;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: left;
+      color: #C4C4C4;
+
+      width: 225px;
+      height: 35px;
+      left: 445px;
+      top: 740px;
+      padding-top: 10px;
+      padding-left: 20px;
+      background: #FFFFFF;
+      border-radius: 30px;
+    }
+  }
+
+  .our__shops{
+    img{
+      position: absolute;
+      width: 540px;
+      height: 212px;
+      left: 968px;
+      top: 600px;
+
+      background: #66C05D;
+    }
+
+    #invite{
+      position: absolute;
+      width: 250px;
+      height: 17px;
+      left: 1015px;
+      top: 635px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+
+      color: #FFFFFF;
+    }
+
+    #shops{
+      position: absolute;
+      width: 141px;
+      height: 40px;
+      left: 1015px;
+      top: 680px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #FFFFFF;
+    }
+
+    .btn__map{
+      position: absolute;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #FFFFFF;
+
+      box-sizing: border-box;
+      position: absolute;
+      width: 170px;
+      height: 35px;
+      padding-top: 8px;
+      left: 1015px;
+      top: 740px;
+      background: #66C05D;
+      border: 2px solid #FFFFFF;
+      border-radius: 30px;
+    }
+  }
+}
+
+footer{
+  .footer__line{
+    position: absolute;
+    height: 110px;
+    width: 1920px;
+    margin-top: 1750px;
+    background-color: #FFFFFF;
+
+
+    #networks{
+      width:260px;
+      height: 60px;
+      position: absolute;
+      left: 405px;
+      top: 15px;
+    }
+
+    #adress{
+      position: absolute;
+      width: 227px;
+      height: 16px;
+      left: 846px;
+      top: 40px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #000000;
+    }
+
+    #number{
+      position: absolute;
+      width: 127px;
+      height: 19px;
+      left: 1178px;
+      top: 40px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #000000;
+    }
+
+    .btn__phone{
+      position: absolute;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      text-align: center;
+      box-sizing: border-box;
+      width: 170px;
+      height: 40px;
+      left: 1345px;
+      top: 30px;
+      padding-top: 10px;
+      background: #FFFFFF;
+      border: 2px solid #66C05D;
+      border-radius: 40px;
+    }
+  }
+
+  .footer__underline{
+    position: absolute;
+    background-color: #EFEFEF;
+    width: 1920px;
+    height:50px;
+    margin-top: 1850px;
+
+    #root{
+      position: absolute;
+      width: 584px;
+      height: 14px;
+      left: 405px;
+      top: 20px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #828282;
+    }
+
+    #confidence{
+      position: absolute;
+      width: 181px;
+      height: 14px;
+      left: 1334px;
+      top: 20px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: right;
+      color: #828282;
+    }
+  }
+}
